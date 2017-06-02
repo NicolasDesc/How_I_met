@@ -1,0 +1,198 @@
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea,
+th, td  {
+    margin: 0;
+    padding: 0;
+}
+
+
+body,
+button, input, select, textarea  {
+    font: 12px/1.5 tahoma, SimSun, \5b8b\4f53, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal;}
+address, cite, dfn, em, var { font-style: normal; }
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } 
+small { font-size: 12px; }
+
+
+ul, ol { list-style: none; }
+
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+sup-tmp { vertical-align: text-top; }
+sub-tmp { vertical-align: text-bottom; }
+
+
+legend { color: #000; } 
+fieldset, img { border: 0; } 
+button, input, select, textarea { font-size: 100%; } 
+
+
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+article, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section,
+summary, time, mark, audio, video {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+mark { background: #ff0; }
+
+
+/* clear */
+.clear { *zoom:1; }
+.clear:before, .clear:after{
+	display:block; content:''; clear:both; height:0; overflow:hidden;
+}
+
+/* display */
+.zoom{ *zoom:1; }
+.dn{ display:none; }
+.db{ display:block; }
+.dib{ display:inline-block; }
+.di{ display:inline; }
+
+.l { float:left; }
+.r { float:right; }
+.cl { clear:both; }
+
+.of-h { overflow:hidden; }
+
+/* index */
+.z-1{ z-index:-1; }
+.z0{ z-index:0; }
+.z1 { z-index:1; }
+.z999 { z-index:999; }
+
+.rel { position:relative; }
+.abs { position:absolute; }
+.fixed { position:fixed; }
+
+/* margin */
+.m0auto { margin:0 auto; }
+.m5 { margin:5px; }
+
+.mt1 { margin-top:1%; }
+.mt5 { margin-top:5%; }
+.mt10 { margin-top:10%; }
+
+.mr5 { margin-right:5%; }
+
+.mb5 { margin-bottom:5px; }
+
+.ml1 { margin-left:1%; }
+.ml2 { margin-left:2%; }
+.ml5 { margin-left:5%; }
+.ml20 { margin-left:20%; }
+.ml30 { margin-left:30%; }
+
+/* padding */
+.p2 { padding:0 2%; }
+.p5 { padding:0 5%; }
+
+
+.pt5 { padding-top:5px; }
+
+.pr2 { padding-right:2%; }
+
+.pb100{ padding-bottom:100px; }
+
+.pl1 { padding-left:1%; }
+
+/* width */
+.w5 { width:5%; }
+.w25 { width:25%; }
+.w40 { width:40%; }
+.w30 { width:30%; }
+
+/* height */
+.h5 { height:5%; }
+
+
+/* border-bottom */
+.bb-none { border-bottom:none; }
+
+/* line-height */
+.lh150 { line-height:150%; }
+.lh300 { line-height:300%; }
+
+/* text */
+.ta-l { text-align:left; }
+.ta-c { text-align:center; }
+.ta-r { text-align:right; }
+
+.f125 { font-size:125%; }
+.f30 { font-size:30px; }
+
+.fw400 { font-weight:400; }
+
+.nowrap { white-space:nowrap; }
+
+/* color */
+.c-fff { color:#fff; }
+.c-red { color:red; }
+.c-green { color:green; }
+.c-blue { color:blue; }
+
+.c-000 { color:#000; }
+.c-333 { color:#333; }
+.c-666 { color:#666; }
+.c-999 { color:#999; }
+
+/* cursor */
+.hand { cursor:pointer; }
+
+/* border */
+.arr,
+.arr b {
+	display:inline-block;
+	position:relative;
+	width:0; height:0;
+	font-size:0; line-height:0; font-family:tahoma;
+	border:4px dashed transparent;
+}
+.arr b { position:absolute; }
+.arr-l { border-left-style:solid; border-left-color:red; }
+.arr-r { border-right-style:solid; border-right-color:red; }
+.arr-t { border-top-style:solid; border-top-color:red; }
+.arr-b { border-bottom-style:solid; border-bottom-color:red; border-bottom-width:5px; }
+.arr-lthin b {
+	top:-4px; left:-5px;
+	border-left-color:#fff; border-left-style:solid;
+}
+.arr-rthin b {
+	top:-4px; left:-3px;
+	border-right-color:#fff; border-right-style:solid;
+}
+.arr-tthin b {
+	top:-5px; left:-4px;
+	border-top-color:#fff; border-top-style:solid;
+}
+.arr-bthin b {
+	top:-3px; left:-4px;
+	border-bottom-color:#fff; border-bottom-style:solid;
+	border-bottom-width:5px;
+}
+/*------------------------- css-lib.css end ------------------------------*/
+.copy{
+	text-align:center;
+	margin:3em 0 0 0;
+}
+.copy p{
+	color:black;
+	font-size:1.2em;
+	line-height:1.5em;
+	font-weight:300;
+}
+.copy p a{
+	color:black;
+}
+.copy p a:hover{
+	text-decoration:underline;
+}
